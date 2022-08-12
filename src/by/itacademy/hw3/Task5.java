@@ -8,20 +8,20 @@ public class Task5 {
         int a = sc.nextInt();
 
         if (a > 59 || a < 0) {
-            System.out.println("Îøèáêà");
+            System.out.println("ÐžÑˆÐ¸Ð±ÐºÐ°");
             return;
         } else if (a == 0 || a == 15 || a == 30 || a == 45) {
-            System.out.println("Ïåðåñå÷åíèå ÷åòâåðòåé");
+            System.out.println("ÐŸÐµÑ€ÐµÑÐµÑ‡ÐµÐ½Ð¸Ðµ Ñ‡ÐµÑ‚Ð²ÐµÑ€Ñ‚ÐµÐ¹");
             return;
         }
         if (a <= 14) {
-            System.out.println("Ïåðâàÿ ÷åòâåðòü");
+            System.out.println("ÐŸÐµÑ€Ð²Ð°Ñ Ñ‡ÐµÑ‚Ð²ÐµÑ€Ñ‚ÑŒ");
         } else if (a <= 29) {
-            System.out.println("Âòîðàÿ ÷åòâåðòü");
+            System.out.println("Ð’Ñ‚Ð¾Ñ€Ð°Ñ Ñ‡ÐµÑ‚Ð²ÐµÑ€Ñ‚ÑŒ");
         } else if (a <= 44) {
-            System.out.println("Òðåòüÿ ÷åòâåðòü");
+            System.out.println("Ð¢Ñ€ÐµÑ‚ÑŒÑ Ñ‡ÐµÑ‚Ð²ÐµÑ€Ñ‚ÑŒ");
         } else {
-            System.out.println("×åòâåðòàÿ ÷åòâåðòü");
+            System.out.println("Ð§ÐµÑ‚Ð²ÐµÑ€Ñ‚Ð°Ñ Ñ‡ÐµÑ‚Ð²ÐµÑ€Ñ‚ÑŒ");
         }
     }
 }

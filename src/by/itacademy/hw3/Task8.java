@@ -11,9 +11,9 @@ public class Task8 {
         int s = n % 60;
         h1 = (n - s) / 60;
         int m = h1 % 60;
-                System.out.println("Иванову домой через: " + n + " секунд");
+        System.out.println("РџРµС‚СЂРѕРІСѓ РґРѕРјРѕР№ С‡РµСЂРµР·: " + n + " СЃРµРєСѓРЅРґ");
         if (h > 0) {
-            System.out.println("Остальным через: " + h + " часа");
-        } else System.out.println("Остальным через: " + m + " минут");
+            System.out.println("РћСЃС‚Р°Р»СЊРЅС‹Рј С‡РµСЂРµР·: " + h + " С‡Р°СЃРѕРІ");
+        } else System.out.println("РћСЃС‚Р°Р»СЊРЅС‹Рј С‡РµСЂРµР·: " + m + " РјРёРЅСѓС‚");
     }
 }

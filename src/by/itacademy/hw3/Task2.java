@@ -7,9 +7,9 @@ public class Task2 {
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
         if (i % 2 != 0 && i > 0) {
-            System.out.println("Ваше число нечетное положительное");
+            System.out.println("Р§РёСЃР»Рѕ РЅРµС‡РµС‚РЅРѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ");
         } else if (i % 2 == 0 && i < 0) {
-            System.out.println("Ваше число четное отрицательное");
+            System.out.println("Р§РёСЃР»Рѕ С‡РµС‚РЅРѕРµ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ");
         }
     }
 }

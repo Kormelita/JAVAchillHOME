@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Task7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Введите первое число: ");
+        System.out.print("РџРµСЂРІРѕРµ С‡РёСЃР»Рѕ: ");
         int a = sc.nextInt();
-        System.out.print("Введите второе число: ");
+        System.out.print("Р’С‚РѕСЂРѕРµ С‡РёСЃР»Рѕ: ");
         int b = sc.nextInt();
         if (a >= 10 | b >= 10 | a <= -10 | b <= -10) {
-            System.out.println("Числа должны быть однозначными");
+            System.out.println("РўРѕР»СЊРєРѕ РѕРґРЅРѕР·РЅР°С‡РЅС‹Рµ С‡РёСЃР»Р°");
             return;
-        } else System.out.print("Укажите результат произведения: ");
+        } else System.out.print("Р’Р°С€ РѕС‚РІРµС‚: ");
         int ans = sc.nextInt();
         int c = a * b;
         if (ans == c) {
-            System.out.println("Правильно!");
-        } else System.out.println("Увы, правильный ответ " + c);
+            System.out.println("РџСЂР°РІРёР»СЊРЅРѕ!");
+        } else System.out.println("РќРµРїСЂР°РІРёР»СЊРЅРѕ, СЌС‚Рѕ " + c);
     }
 }
 

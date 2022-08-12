@@ -9,7 +9,7 @@ public class Task6 {
         int b = sc.nextInt();
         int c = sc.nextInt();
         if (a>b+c||b>a+c||c>a+b){
-            System.out.println("Такого треугольника не сущесвтует");
-        }else System.out.println("Сущесвтует");
+            System.out.println("РќРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚");
+        }else System.out.println("РЎСѓС‰РµСЃС‚РІСѓРµС‚");
     }
 }

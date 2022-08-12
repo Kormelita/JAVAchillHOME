@@ -8,28 +8,28 @@ public class Task3 {
         int i = sc.nextInt();
         switch (i) {
             case (1):
-                System.out.println("Понедельник");
+                System.out.println("РџРѕРЅРµРґРµР»СЊРЅРёРє");
                 break;
             case (2):
-                System.out.println("Вторник");
+                System.out.println("Р’С‚РѕСЂРЅРёРє");
                 break;
             case (3):
-                System.out.println("Среда");
+                System.out.println("РЎСЂРµРґР°");
                 break;
             case (4):
-                System.out.println("Четверг");
+                System.out.println("Р§РµС‚РІРµСЂРі");
                 break;
             case (5):
-                System.out.println("Пятница");
+                System.out.println("РџСЏС‚РЅРёС†Р°");
                 break;
             case (6):
-                System.out.println("Выходной");
+                System.out.println("Р’С‹С…РѕРґРЅРѕР№");
                 break;
             case (7):
-                System.out.println("Выходной");
+                System.out.println("Р’С‹С…РѕРґРЅРѕР№");
                 break;
             default:
-                System.out.println("Такого дня недели не существует");
+                System.out.println("РўРђРєРѕРіРѕ РґРЅСЏ РЅРµРґРµР»Рё РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚");
         }
     }
 }

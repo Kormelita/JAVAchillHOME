@@ -2,48 +2,42 @@ package by.itacademy.hw2;
 
 public class Task4 {
     public static void main(String[] args) {
-
+        upp();
+        noupp();
     }
-
-    static {
-        double d = 123.456;
-        float f = (float) d;
-        System.out.println(d);
-        System.out.println(f);
-    }
-
-    static {
-        double d = 123.456;
-        int i = (int) d;
-        System.out.println(d);
-        System.out.println(i);
-    }
-
-    static {
-        long l = 1234567890;
-        int i = (int) l;
-        System.out.println(l);
-        System.out.println(i);
-    }
-
-    static {
-        int i = 123456789;
-        short s = (short) i;
-        System.out.println(i);
+    public static void upp() {
+        byte b = 7;
+        short s = b;
+        int i = s;
+        long l = i;
+        float f = s;
+        double d = i;
+        double df = f;
+        System.out.println(b);
         System.out.println(s);
+        System.out.println(i);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+        System.out.println(df);
     }
 
-    static {
-        short s = 12345;
+    public static void noupp() {
+        double d = 123.456;
+        long l = 1234567890;
+        float f = (float) d;
+        int i = (int) d;
+        int il = (int) l;
+        short s = (short) i;
         byte b = (byte) s;
+        System.out.println(d);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(i);
+        System.out.println(il);
         System.out.println(s);
         System.out.println(b);
     }
-
-    static {
-        int i = 0;
-        char c = (char) i;
-        System.out.println(i);
-        System.out.println(c);
-    }
 }
+
+
